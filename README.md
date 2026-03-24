@@ -24,7 +24,6 @@ A real-time markdown editor built with React and TypeScript. Type markdown on th
 
 ## Getting Started
 
-### Run locally
 ```bash
 git clone https://github.com/Koji1999/markdown-previewer
 cd markdown-previewer
@@ -33,7 +32,3 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Or use the live demo
-
-[https://markdown-previewer-ten-beta.vercel.app](https://markdown-previewer-ten-beta.vercel.app)
