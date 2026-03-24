@@ -14,12 +14,12 @@ function PreviewPanel({ html }: PreviewPanelProps) {
   }
 
   return (
-    <div className="w-1/2 h-full flex flex-col">
-      <div className="h-12 px-4 py-3 bg-gray-50 border-b border-gray-200 flex justify-between items-center">
+    <div className="w-1/2 h-full flex flex-col bg-gray-50">
+      <div className="h-12 px-4 py-3 bg-gray-200 border-b border-gray-300 flex justify-between items-center">
         <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">HTML Preview</h2>
         <button
           onClick={handleCopy}
-          className="px-3 py-1 text-sm bg-gray-800 text-white rounded hover:bg-gray-600 transition-colors"
+          className="px-3 py-1 text-sm bg-gray-600 text-white rounded hover:bg-gray-300 transition-colors"
         >
           {isCopied ? "Copied!" : "Copy HTML"}
         </button>
