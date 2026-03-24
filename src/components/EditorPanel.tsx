@@ -23,6 +23,7 @@ function EditorPanel({ value, onChange }: EditorPanelProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Type your markdown here..."
+        spellCheck={false}
       />
     </div>
   )
